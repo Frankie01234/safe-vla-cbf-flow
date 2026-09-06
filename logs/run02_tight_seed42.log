@@ -1,0 +1,9 @@
+run_id=run02_tight_seed42
+scenario=tight seed=42 n_trials=24
+note=更挤三障场景，检验 LSE 聚合与后置投影差异。
+tau_on=0.6
+elapsed_sec=10.77
+methods:
+  - none: success=1.000, viol=0.355, chunk_inside=6.17, chunk_min_h=-0.042, mean_h=0.083, curv=0.0007, qp_ms=0.00
+  - e2e_cbf: success=1.000, viol=0.070, chunk_inside=0.12, chunk_min_h=0.006, mean_h=0.097, curv=0.0016, qp_ms=0.00
+  - cbf_fm: success=0.833, viol=0.100, chunk_inside=1.04, chunk_min_h=0.079, mean_h=1.974, curv=0.0089, qp_ms=51.87

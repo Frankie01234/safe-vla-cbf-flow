@@ -1,0 +1,46 @@
+{
+  "run_id": "run01_default_seed7",
+  "note": "中等障碍迷宫；名义场带障碍吸引，制造无过滤违规。",
+  "elapsed_sec": 3.4666284999693744,
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python": "3.13.14",
+  "scenario": "default",
+  "n_trials": 24,
+  "seed": 7,
+  "tau_on": 0.6,
+  "methods": {
+    "none": {
+      "success_rate": 1.0,
+      "mean_violation_rate": 0.2341597796143251,
+      "mean_barrier": 0.1618849382188552,
+      "mean_min_barrier": -0.027441385727474867,
+      "mean_chunk_min_barrier": -0.025744236897639338,
+      "mean_chunk_inside": 2.5,
+      "mean_curvature": 0.0006473024547533184,
+      "mean_qp_ms": 0.0,
+      "n_trials": 24
+    },
+    "e2e_cbf": {
+      "success_rate": 1.0,
+      "mean_violation_rate": 0.03615702479338843,
+      "mean_barrier": 0.17704968297463633,
+      "mean_min_barrier": -0.007604811812036018,
+      "mean_chunk_min_barrier": 0.02049999999999996,
+      "mean_chunk_inside": 0.0,
+      "mean_curvature": 0.0013832909616643754,
+      "mean_qp_ms": 0.0,
+      "n_trials": 24
+    },
+    "cbf_fm": {
+      "success_rate": 0.7916666666666666,
+      "mean_violation_rate": 0.032713498622589536,
+      "mean_barrier": 0.34943366507237233,
+      "mean_min_barrier": -0.009070125500562057,
+      "mean_chunk_min_barrier": 0.16197861149360382,
+      "mean_chunk_inside": 0.0,
+      "mean_curvature": 0.007254410993412619,
+      "mean_qp_ms": 15.329658851745384,
+      "n_trials": 24
+    }
+  }
+}

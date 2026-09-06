@@ -1,0 +1,9 @@
+run_id=run01_default_seed7
+scenario=default seed=7 n_trials=24
+note=中等障碍迷宫；名义场带障碍吸引，制造无过滤违规。
+tau_on=0.6
+elapsed_sec=3.47
+methods:
+  - none: success=1.000, viol=0.234, chunk_inside=2.50, chunk_min_h=-0.026, mean_h=0.162, curv=0.0006, qp_ms=0.00
+  - e2e_cbf: success=1.000, viol=0.036, chunk_inside=0.00, chunk_min_h=0.020, mean_h=0.177, curv=0.0014, qp_ms=0.00
+  - cbf_fm: success=0.792, viol=0.033, chunk_inside=0.00, chunk_min_h=0.162, mean_h=0.349, curv=0.0073, qp_ms=15.33

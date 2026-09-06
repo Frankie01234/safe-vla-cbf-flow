@@ -1,0 +1,147 @@
+{
+  "started": "2026-09-07 00:53:10",
+  "finished": "2026-09-07 00:53:31",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python": "3.13.14",
+  "tau_on": 0.6,
+  "runs": [
+    {
+      "run_id": "run01_default_seed7",
+      "note": "中等障碍迷宫；名义场带障碍吸引，制造无过滤违规。",
+      "elapsed_sec": 3.4666284999693744,
+      "platform": "Windows-11-10.0.26200-SP0",
+      "python": "3.13.14",
+      "scenario": "default",
+      "n_trials": 24,
+      "seed": 7,
+      "tau_on": 0.6,
+      "methods": {
+        "none": {
+          "success_rate": 1.0,
+          "mean_violation_rate": 0.2341597796143251,
+          "mean_barrier": 0.1618849382188552,
+          "mean_min_barrier": -0.027441385727474867,
+          "mean_chunk_min_barrier": -0.025744236897639338,
+          "mean_chunk_inside": 2.5,
+          "mean_curvature": 0.0006473024547533184,
+          "mean_qp_ms": 0.0,
+          "n_trials": 24
+        },
+        "e2e_cbf": {
+          "success_rate": 1.0,
+          "mean_violation_rate": 0.03615702479338843,
+          "mean_barrier": 0.17704968297463633,
+          "mean_min_barrier": -0.007604811812036018,
+          "mean_chunk_min_barrier": 0.02049999999999996,
+          "mean_chunk_inside": 0.0,
+          "mean_curvature": 0.0013832909616643754,
+          "mean_qp_ms": 0.0,
+          "n_trials": 24
+        },
+        "cbf_fm": {
+          "success_rate": 0.7916666666666666,
+          "mean_violation_rate": 0.032713498622589536,
+          "mean_barrier": 0.34943366507237233,
+          "mean_min_barrier": -0.009070125500562057,
+          "mean_chunk_min_barrier": 0.16197861149360382,
+          "mean_chunk_inside": 0.0,
+          "mean_curvature": 0.007254410993412619,
+          "mean_qp_ms": 15.329658851745384,
+          "n_trials": 24
+        }
+      }
+    },
+    {
+      "run_id": "run02_tight_seed42",
+      "note": "更挤三障场景，检验 LSE 聚合与后置投影差异。",
+      "elapsed_sec": 10.765767600038089,
+      "platform": "Windows-11-10.0.26200-SP0",
+      "python": "3.13.14",
+      "scenario": "tight",
+      "n_trials": 24,
+      "seed": 42,
+      "tau_on": 0.6,
+      "methods": {
+        "none": {
+          "success_rate": 1.0,
+          "mean_violation_rate": 0.3550275482093664,
+          "mean_barrier": 0.08332501414318809,
+          "mean_min_barrier": -0.04381177609719666,
+          "mean_chunk_min_barrier": -0.04229766103273014,
+          "mean_chunk_inside": 6.166666666666667,
+          "mean_curvature": 0.0006616055306188987,
+          "mean_qp_ms": 0.0,
+          "n_trials": 24
+        },
+        "e2e_cbf": {
+          "success_rate": 1.0,
+          "mean_violation_rate": 0.06955922865013774,
+          "mean_barrier": 0.09696564499341824,
+          "mean_min_barrier": -0.03769058842087831,
+          "mean_chunk_min_barrier": 0.005600325479278735,
+          "mean_chunk_inside": 0.125,
+          "mean_curvature": 0.001570341279009629,
+          "mean_qp_ms": 0.0,
+          "n_trials": 24
+        },
+        "cbf_fm": {
+          "success_rate": 0.8333333333333334,
+          "mean_violation_rate": 0.10020661157024795,
+          "mean_barrier": 1.9739161701614119,
+          "mean_min_barrier": -0.026268221952190956,
+          "mean_chunk_min_barrier": 0.07899144915879457,
+          "mean_chunk_inside": 1.0416666666666667,
+          "mean_curvature": 0.00886012619340904,
+          "mean_qp_ms": 51.87306875086506,
+          "n_trials": 24
+        }
+      }
+    },
+    {
+      "run_id": "run03_aggressive_seed123",
+      "note": "更高速度与更强障碍吸引，压力测试去噪后段 CBF-FM。",
+      "elapsed_sec": 7.332963499997277,
+      "platform": "Windows-11-10.0.26200-SP0",
+      "python": "3.13.14",
+      "scenario": "aggressive",
+      "n_trials": 24,
+      "seed": 123,
+      "tau_on": 0.6,
+      "methods": {
+        "none": {
+          "success_rate": 1.0,
+          "mean_violation_rate": 0.30612947658402206,
+          "mean_barrier": 0.14046845126585908,
+          "mean_min_barrier": -0.03984905017980386,
+          "mean_chunk_min_barrier": -0.038439401335752715,
+          "mean_chunk_inside": 3.9583333333333335,
+          "mean_curvature": 0.0005944450569939563,
+          "mean_qp_ms": 0.0,
+          "n_trials": 24
+        },
+        "e2e_cbf": {
+          "success_rate": 1.0,
+          "mean_violation_rate": 0.056129476584022044,
+          "mean_barrier": 0.16223196406829135,
+          "mean_min_barrier": -0.03517626134115468,
+          "mean_chunk_min_barrier": 0.0224999999999999,
+          "mean_chunk_inside": 0.0,
+          "mean_curvature": 0.0017408562965337225,
+          "mean_qp_ms": 0.0,
+          "n_trials": 24
+        },
+        "cbf_fm": {
+          "success_rate": 0.7916666666666666,
+          "mean_violation_rate": 0.05785123966942149,
+          "mean_barrier": 0.3477634934320372,
+          "mean_min_barrier": -0.028186129893321938,
+          "mean_chunk_min_barrier": 0.13934755530882045,
+          "mean_chunk_inside": 0.0,
+          "mean_curvature": 0.007805785568473152,
+          "mean_qp_ms": 29.51024426844621,
+          "n_trials": 24
+        }
+      }
+    }
+  ]
+}
